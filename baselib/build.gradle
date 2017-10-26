@@ -23,7 +23,6 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-//    compile 'com.android.support:multidex:1.0.1'
     compile rootProject.ext.dependencies["multidex"]
     //控件
     compile rootProject.ext.dependencies["design"]
@@ -44,7 +43,6 @@ dependencies {
     compile rootProject.ext.dependencies["okio"]
     compile rootProject.ext.dependencies["gson"]
     compile rootProject.ext.dependencies["eventbus"]
-//    compile rootProject.ext.dependencies["cookiejar"]
 
 
     //RX
@@ -59,8 +57,6 @@ dependencies {
     annotationProcessor rootProject.ext.dependencies["butterknife-apt"]
     //查内存泄露
 //    compile rootProject.ext.dependencies["leakcanary"]
-
-//    compile rootProject.ext.dependencies["autolayout"]
     compile rootProject.ext.dependencies["tinypinyin"]
     compile rootProject.ext.dependencies["gson"]
     compile rootProject.ext.dependencies["xutils"]
@@ -70,7 +66,7 @@ dependencies {
     compile rootProject.ext.dependencies["sherlockspinner"]
     compile rootProject.ext.dependencies["IMCore"]
     compile rootProject.ext.dependencies["IMKit"]
-    compile rootProject.ext.dependencies["arouter-api"]
+//    compile rootProject.ext.dependencies["arouter-api"]
 
 
 }
