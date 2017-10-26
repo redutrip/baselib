@@ -1,0 +1,81 @@
+<resources>
+    <dimen name="text_size_normal">@dimen/y30</dimen>
+    <!--边距-->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!--shap 图形圆角-->
+    <dimen name="shap_radius">@dimen/y10</dimen>
+    <dimen name="shap_radius_r10">@dimen/y10</dimen>
+    <!--header-->
+    <dimen name="header_height">45dp</dimen>
+
+    <!--图片相关尺寸-->
+    <!--icon图标-->
+    <dimen name="icon_pxsize_x">@dimen/x40</dimen>
+    <dimen name="icon_pxsize_y">@dimen/y40</dimen>
+    <dimen name="icon_small_pxsize_x">@dimen/x30</dimen>
+    <dimen name="icon_small_pxsize_y">@dimen/y30</dimen>
+
+    <dimen name="icon_redpoint_x">@dimen/x15</dimen>
+    <dimen name="icon_redpoint_y">@dimen/y15</dimen>
+
+    <!--常按钮-->
+    <dimen name="normal_center_btn_weight">@dimen/x120</dimen>
+    <dimen name="normal_center_btn_height">@dimen/y38</dimen>
+
+
+
+
+    <!--pulltofresh  start -->
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">4dp</dimen>
+    <!--end  pulltofresh-->
+
+    <!--quicksidebar-->
+    <dimen name="textSize_quicksidebar">10sp</dimen>
+    <dimen name="textSize_quicksidebar_choose">15sp</dimen>
+    <dimen name="textSize_quicksidebartips">20sp</dimen>
+    <dimen name="height_quicksidebartips">45dp</dimen>
+    <dimen name="height_quicksidebaritem">20dp</dimen>
+
+    <!--sweetdialog-->
+    <dimen name="alert_width">150dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+
+    <!--frgmentdialog-->
+    <dimen name="frgmentdialog_radius">@dimen/x50</dimen>
+    <dimen name="dividerline_margin">@dimen/x22</dimen>
+
+    <!--ios alert-->
+        <!--标题文字大小-->
+        <dimen name="iosaleart_title">22sp</dimen>
+        <dimen name="iosaleart_actionsheet_title">14sp</dimen>
+        <!--标题文字高度-->
+        <dimen name="iosaleart_height_alert_title">60dp</dimen>
+        <dimen name="iosaleart_height_actionsheet_title">40dp</dimen>
+        <!--消息文字大小-->
+        <dimen name="iosaleart_alert_msg">15sp</dimen>
+        <dimen name="iosaleart_actionsheet_msg">14sp</dimen>
+        <!--消息距离底部间距-->
+        <dimen name="iosaleart_marginBottom_alert_msg">25dp</dimen>
+        <dimen name="iosaleart_marginBottom_actionsheet_msg">14dp</dimen>
+        <!--窗口模式左右两边到屏幕的间距-->
+        <dimen name="iosaleart_margin_alert_left_right">40dp</dimen>
+        <dimen name="iosaleart_margin_actionsheet_left_right">10dp</dimen>
+        <!--线条粗细-->
+        <dimen name="iosaleart_size_divier">1dp</dimen>
+        <!--按钮的高度-->
+        <dimen name="height_alert_button">48dp</dimen>
+        <!--按钮文字大小-->
+        <dimen name="iosaleart_textSize_alert_button">15sp</dimen>
+        <!--圆角-->
+        <dimen name="iosaleart_radius_alertview">15px</dimen>
+    <!--ios alert-->
+
+
+</resources>

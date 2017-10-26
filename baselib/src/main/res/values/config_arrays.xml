@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--登录服务器的地址-->
+    <string-array name="base_url">
+        <item>http://192.168.2.245:8080/kkyou/</item>
+        <item>http://kekeyou.cn/kkyou/</item>
+        <item>https://mobile.kekeyou.cn/kkyou/</item>
+    </string-array>
+
+    <!--图片下载-->
+    <string-array name="image_path">
+        <item>http://192.168.2.8:8080/kkyou/file/img/view/</item>
+        <item>http://kekeyou.cn/kkyou/file/img/view/</item>
+        <item>https://mobile.kekeyou.cn/kkyou/file/img/view/</item>
+    </string-array>
+
+    <!--环境名称-->
+    <string-array name="enviroment">
+        <item> 2.8 本地环境</item>
+        <item> 测试环境</item>
+        <item></item>
+    </string-array>
+</resources>

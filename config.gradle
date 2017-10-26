@@ -1,0 +1,72 @@
+ext {
+
+    android = [
+               applicationId           : "com.kkyou.tgp.guide",
+               compileSdkVersion       : 24,
+               buildToolsVersion       : "25.0.3",
+               minSdkVersion           : 16,
+               targetSdkVersion        : 24,
+               versionCode             : 2150,
+               versionName             : "2.1.5",
+               androidSupportSdkVersion: "24.2.0",
+               retrofitSdkVersion      : "2.1.0",
+               dagger2SdkVersion       : "2.6",
+               rxlifecycleSdkVersion   : "1.0",
+               espressoSdkVersion      : "2.2.2"
+    ]
+
+    dependencies = [
+            "multidex"                 : "com.android.support:multidex:1.0.1",
+            "design"                   : "com.android.support:design:${android["androidSupportSdkVersion"]}",
+            "appcompat-v7"             : "com.android.support:appcompat-v7:${android["androidSupportSdkVersion"]}",
+            "support-v4"               : "com.android.support:support-v4:${android["androidSupportSdkVersion"]}",
+            "support-v13"              : "com.android.support:support-v13:${android["androidSupportSdkVersion"]}",
+            "cardview-v7"              : "com.android.support:cardview-v7:${android["androidSupportSdkVersion"]}",
+            "recyclerview-v7"              : "com.android.support:recyclerview-v7:${android["androidSupportSdkVersion"]}",
+            "retrofit"                 : "com.squareup.retrofit2:retrofit:${android["retrofitSdkVersion"]}",
+            "retrofit-converter-gson"  : "com.squareup.retrofit2:converter-gson:${android["retrofitSdkVersion"]}",
+            "retrofit-adapter-rxjava"  : "com.squareup.retrofit2:adapter-rxjava:${android["retrofitSdkVersion"]}",
+            "okio"                     : "com.squareup.okio:okio:1.7.0",
+            "okhttp3"                  : "com.squareup.okhttp3:okhttp:3.4.2",
+            "cookiejar"                : "com.github.franmontiel:PersistentCookieJar:v1.0.1",
+            "gson"                     : "com.google.code.gson:gson:2.8.0",
+            "butterknife"              : "com.jakewharton:butterknife:8.5.1",
+            "butterknife-apt"          : "com.jakewharton:butterknife-compiler:8.5.1",
+            "glide"                    : "com.github.bumptech.glide:glide:3.7.0",
+            "androideventbus"          : "org.simple:androideventbus:1.0.5.1",
+            "rxjava"                   : "io.reactivex:rxjava:1.1.1",
+            "rxandroid"                : "io.reactivex:rxandroid:1.1.0",
+            "rxlifecycle"              : "com.trello:rxlifecycle:${android["rxlifecycleSdkVersion"]}",
+            "rxlifecycle-components"   : "com.trello:rxlifecycle-components:${android["rxlifecycleSdkVersion"]}",
+            "disklrucache"              : "com.jakewharton:disklrucache:2.0.2",    //缓存
+            "eventbus"                 : "org.greenrobot:eventbus:3.0.0",
+
+            "materialrefeshlayout"       : "com.cjj.materialrefeshlayout:library:1.3.0",
+
+            "autolayout"                : "com.zhy:autolayout:1.4.5",
+            "tinypinyin"                : "com.github.promeg:tinypinyin:1.0.0",
+            "xutils"                    : "org.xutils:xutils:3.3.38",
+            "IMCore"                    : "com.alibaba.mobileim:IMCore:2.0.2.1@aar",
+            "IMKit"                     : "com.alibaba.mobileim:IMKit:2.0.2.1@aar",
+            "crashreport"               : "com.tencent.bugly:crashreport_upgrade:latest.release",
+            "nativecrashreport"         : "com.tencent.bugly:nativecrashreport:latest.release",
+            "gms"                       : "com.google.android.gms:play-services-appindexing:8.1.0",
+            "sherlockspinner"           : "com.sherlockshi.widget:sherlockspinner:1.0.2",
+
+            "glide:okhttp3"             :'com.github.bumptech.glide:okhttp3-integration:1.4.0@aar',
+
+            "arouter-api"             :'com.alibaba:arouter-api:1.2.2',
+            "arouter-compiler"        :'com.alibaba:arouter-compiler:1.1.3',
+            "constraint-layout"        :'com.android.support.constraint:constraint-layout:1.0.2',
+
+
+//            "leakcanary"       : "com.squareup.leakcanary:leakcanary-android:1.5",
+//            "blockcanary"       : "com.github.markzhai:blockcanary-android:1.5.0",
+            //自定义库
+            "redutrip-picturelib"        :'com.github.redutrip:picturelib:v1.0'
+    ]
+
+
+
+
+}

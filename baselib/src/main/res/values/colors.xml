@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--5.0系统控件默认颜色-->
+    <color name="colorPrimary">#fdd13d</color>
+    <color name="colorPrimaryDark">#d2ae33</color>
+    <color name="colorAccent">#dddcdc</color>
+
+    <!--主题颜色-->
+    <color name="app_mainback">#f9f9f9</color>
+    <color name="app_mainback_press">#e8e8e8</color>
+    <color name="app_mainback_light">#e6e8e9</color>
+    <color name="light_yellow">#fefbf0</color>
+    <color name="text_back">#f5f5f5</color>
+
+    <color name="dividerline">#e8e8e8</color>
+    <color name="dividerblock">#f9f9f9</color>
+
+    <color name="app_theme">#fdd13d</color>
+    <color name="app_theme_press">#d2ae33</color>
+    <color name="app_theme_light">#fdefc0</color>
+    <color name="app_subtheme">#ffb006</color>
+    <color name="app_subtheme_press">#da9500</color>
+    <color name="btn">#a2000d</color>
+    <color name="btn_press">#840101</color>
+
+    <color name="gray_shallow">#cdcdcd</color>
+    <color name="gray">#777777</color>
+    <color name="gray_transparency">#dd777777</color>
+    <color name="gray_light">#b3b3b3</color>
+    <color name="pink">#fd8684</color>
+    <color name="pink_shallow">#e76e7c</color>
+    <color name="red">#ff122d</color>
+    <color name="red_dark">#C82F2E</color>
+    <color name="red_light">#fd6864</color>
+    <color name="wine">#a2000d</color>
+    <color name="wine_light">#e5004f</color>
+    <color name="black">#313131</color>
+    <color name="black_shallow">#252525</color>
+    <color name="dark">#000000</color>
+    <!-- 透明 半透明-->
+    <color name="transparent">#00000000</color>
+    <color name="translucent_black">#50000000</color>
+    <color name="translucent_white">#a0fdfbfb</color>
+    <color name="translucent_mainback">#a0eaeaea</color>
+    <color name="translucent_theme">#50e5004f</color>
+    <color name="translucent_winelight">#80e5004f</color>
+    <!--通用颜色-->
+    <color name="yellow">#f8be40</color>
+    <color name="yellowdark">#ffb006</color>
+    <color name="orange">#fd9c28</color>
+    <color name="orangedark">#ca5b19</color>
+    <color name="themeyellow">#fcd13d</color>
+    <color name="white">#ffffff</color>
+    <color name="white_light">#f5f5f5</color>
+    <color name="white_transparency">#66ffffff</color>
+    <color name="whiteback">#ffffff</color>
+    <color name="lightbule">#ecf0f3</color>
+    <color name="blue_light">#d83f64fa</color>
+    <color name="blue">#7cb7ee</color>
+    <color name="blue_press">#598ebf</color>
+    <color name="green">#3da6a1</color>
+    <color name="cyan">#24b1bb</color>
+    <color name="cyan_press">#158d96</color>
+    <!--字体颜色-->
+    <color name="text_black">#252525</color>
+    <color name="text_title">#333333</color>
+    <color name="text_tips">#999999</color>
+    <color name="text_shallow">#CCCCCC</color>
+    <color name="text_nomal">#666666</color>
+    <color name="text_hint">#b3b3b3</color>
+
+    <!-- 自定义滚动条颜色-->
+    <color name="scrollbar">#ffb6b6b6</color>
+
+
+    <!--ios alertview 颜色-->
+    <!--覆盖颜色-->
+    <color name="iosalert_bgoverlay">#60000000</color>
+    <!--窗口背景颜色-->
+    <color name="iosalert_view_bgColor">#f8f8f8</color>
+    <color name="iosalert_view_bgColor_start">#f0f0f0</color>
+    <!--标题颜色-->
+    <color name="iosalert_alert_title">#000000</color>
+    <color name="iosalert_actionsheet_title">#8f8f8f</color>
+    <!--消息颜色-->
+    <color name="iosalert_alert_msg">#000000</color>
+    <color name="iosalert_actionsheet_msg">#8f8f8f</color>
+    <!--线条颜色-->
+    <color name="iosalert_divier">#d7d7db</color>
+    <!--取消按钮颜色-->
+    <color name="iosalert_button_cancel">@color/blue</color>
+    <!--高亮按钮颜色-->
+    <color name="iosalert_button_destructive">@color/blue</color>
+    <!--普通按钮文字颜色-->
+    <color name="iosalert_button_others">@color/blue</color>
+    <!--点击颜色-->
+    <color name="iosalert_button_press">#EAEAEA</color>
+    <!--actionsheet模式的取消按钮背景颜色-->
+    <color name="iosalert_actionsheet_cancel_nor">#ffffff</color>
+    <color name="app_white_alpha_50">#80ffffff</color>
+    <color name="app_black_alpha_30">#55000000</color>
+    <color name="app_black_alpha_301">#30000000</color>
+    <color name="app_black_alpha_36">#5C000000</color>
+    <color name="app_black_alpha_50">#80000000</color>
+    <color name="app_black_alpha_40">#70000000</color>
+    <color name="app_black_alpha_20">#33000000</color>
+    <color name="app_black_alpha_25">#40000000</color>
+    <color name="app_white_alpha_20">#33ffffff</color><!--20%不透明-->
+    <color name="app_white_alpha_30">#4Cffffff</color><!--30%不透明-->
+    <color name="app_white_alpha_80">#CCffffff</color><!--80%不透明-->
+    <color name="app_white_alpha_40">#70ffffff</color>
+    <color name="app_black_alpha_00">#00000000</color>
+    <color name="app_black_alpha_08">#08000000</color>
+    <color name="app_white_alpha_5">#8000</color>
+    <color name="app_black_alpha_55">#55000000</color>
+    <color name="app_black_alphas_50">#50000000</color>
+    <color name="app_black_alpha1_50">#7F000000</color><!--计算50%-->
+    <color name="app_black_alpha_8">#14000000</color><!--计算8%-->
+    <color name="app_black_alpha_90">#E4000000</color><!--90%-->
+    <color name="app_c14_alpha_94">#F0ffffff</color>
+    <color name="app_black_alpha_21">#20000000</color>
+</resources>

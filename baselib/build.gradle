@@ -1,0 +1,75 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.android["compileSdkVersion"]
+    buildToolsVersion rootProject.ext.android["buildToolsVersion"]
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.android["minSdkVersion"]
+        targetSdkVersion rootProject.ext.android["targetSdkVersion"]
+        versionCode rootProject.ext.android["versionCode"]
+        versionName rootProject.ext.android["versionName"]
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+//    compile 'com.android.support:multidex:1.0.1'
+    compile rootProject.ext.dependencies["multidex"]
+    //控件
+    compile rootProject.ext.dependencies["design"]
+    compile rootProject.ext.dependencies["appcompat-v7"]
+    compile rootProject.ext.dependencies["support-v4"]
+    compile rootProject.ext.dependencies["support-v13"]
+    compile rootProject.ext.dependencies["cardview-v7"]
+    compile rootProject.ext.dependencies["materialrefeshlayout"]
+    compile rootProject.ext.dependencies["constraint-layout"]
+
+    //网络连接
+    compile rootProject.ext.dependencies["retrofit"]
+    compile rootProject.ext.dependencies["retrofit-converter-gson"]
+    compile rootProject.ext.dependencies["retrofit-adapter-rxjava"]
+    compile rootProject.ext.dependencies["okhttp3"]
+    compile rootProject.ext.dependencies["glide"]
+    compile rootProject.ext.dependencies["glide:okhttp3"]
+    compile rootProject.ext.dependencies["okio"]
+    compile rootProject.ext.dependencies["gson"]
+    compile rootProject.ext.dependencies["eventbus"]
+//    compile rootProject.ext.dependencies["cookiejar"]
+
+
+    //RX
+    compile rootProject.ext.dependencies["rxjava"]
+    compile rootProject.ext.dependencies["rxandroid"]
+    compile rootProject.ext.dependencies["rxlifecycle"]
+    compile rootProject.ext.dependencies["rxlifecycle-components"]
+    compile rootProject.ext.dependencies["disklrucache"]//缓存
+
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile rootProject.ext.dependencies["butterknife"]
+    annotationProcessor rootProject.ext.dependencies["butterknife-apt"]
+    //查内存泄露
+//    compile rootProject.ext.dependencies["leakcanary"]
+
+//    compile rootProject.ext.dependencies["autolayout"]
+    compile rootProject.ext.dependencies["tinypinyin"]
+    compile rootProject.ext.dependencies["gson"]
+    compile rootProject.ext.dependencies["xutils"]
+    compile rootProject.ext.dependencies["crashreport"]
+    compile rootProject.ext.dependencies["nativecrashreport"]
+    compile rootProject.ext.dependencies["gms"]
+    compile rootProject.ext.dependencies["sherlockspinner"]
+    compile rootProject.ext.dependencies["IMCore"]
+    compile rootProject.ext.dependencies["IMKit"]
+    compile rootProject.ext.dependencies["arouter-api"]
+
+
+}
+

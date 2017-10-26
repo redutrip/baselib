@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/x580"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    
+    <RelativeLayout
+        android:layout_width="@dimen/x580"
+        android:layout_height="@dimen/y950"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/dialog_activities_bg_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/shap_framentdialog_radius_white"
+            android:scaleType="fitXY" />
+        <LinearLayout
+            android:id="@+id/dialog_activities_content_rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y850"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/dialog_activities_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/y40"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/y100"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/dialog_activities_content_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/dialog_activities_title_tv"
+                android:textSize="@dimen/y45"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/y100"
+                android:text="" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/dialog_activities_getgoods_tv"
+                android:layout_width="@dimen/x480"
+                android:layout_height="@dimen/y85"
+                android:text=""
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/y25"
+                android:textSize="@dimen/y34"
+                android:gravity="center"
+                android:textColor="@color/text_title"
+                android:layout_centerHorizontal="true"
+                android:layout_above="@+id/dialog_activities_doubelbtn_ll"
+                android:background="@drawable/bg_null"/>
+
+            <LinearLayout
+                android:id="@+id/dialog_activities_doubelbtn_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_marginBottom="@dimen/y30">
+                <TextView
+                    android:id="@+id/dialog_activities_detail_tv"
+                    android:layout_width="@dimen/x230"
+                    android:layout_height="@dimen/y85"
+                    android:text=""
+                    android:textSize="@dimen/y34"
+                    android:gravity="center"
+                    android:textColor="@color/text_title"
+                    android:layout_marginRight="@dimen/x10"
+                    android:background="@drawable/bg_null"/>
+                <TextView
+                    android:id="@+id/dialog_activities_share_tv"
+                    android:layout_width="@dimen/x230"
+                    android:layout_height="@dimen/y85"
+                    android:text=""
+                    android:textSize="@dimen/y34"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:textColor="@color/text_title"
+                    android:background="@drawable/bg_null"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/dialog_activities_cancel_iv"
+            android:layout_width="@dimen/x44"
+            android:layout_height="@dimen/y44"
+            android:layout_below="@+id/dialog_activities_content_rl"
+            android:layout_marginTop="@dimen/y40"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

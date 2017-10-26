@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/x600"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shap_radius_white_r20"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <com.keke.viewlib.progress.CircleProgressBar
+        android:id="@+id/frgdialog_progress"
+        app:mlpb_show_arrow="true"
+        app:mlpb_arrow_height="4dp"
+        app:mlpb_arrow_width="8dp"
+        app:mlpb_progress_stoke_width="3dp"
+        app:mlpb_progress_color="@color/app_theme"
+        app:mlpb_progress_text_visibility="invisible"
+        app:mlpb_enable_circle_background="false"
+        android:layout_width="@dimen/x100"
+        android:layout_height="@dimen/y100"
+        android:layout_marginTop="@dimen/y20"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/frgdialog_normal_content_tv"
+        android:layout_width="@dimen/x600"
+        android:layout_height="match_parent"
+        android:minHeight="@dimen/y120"
+        android:text=""
+        android:textSize="@dimen/y32"
+        android:paddingLeft="@dimen/x30"
+        android:paddingRight="@dimen/x30"
+        android:lineSpacingMultiplier="1.2"
+        android:gravity="center"
+        android:textColor="@color/text_nomal"
+        android:layout_marginTop="@dimen/y10"
+        android:paddingBottom="@dimen/y20"/>
+
+</LinearLayout>
