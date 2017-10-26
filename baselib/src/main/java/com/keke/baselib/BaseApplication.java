@@ -10,7 +10,6 @@ import android.support.multidex.MultiDexApplication;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.alibaba.android.arouter.launcher.ARouter;
 import com.alibaba.sdk.android.push.CloudPushService;
 import com.alibaba.sdk.android.push.CommonCallback;
 import com.alibaba.sdk.android.push.noonesdk.PushServiceFactory;
@@ -69,10 +68,7 @@ public class BaseApplication extends MultiDexApplication {
         // 初始化Bugly
         initBugly();
 
-        // 如果通过“AndroidManifest.xml”来配置APP信息，初始化方法如下
-        // CrashReport.initCrashReport(context, strategy);
-        // 初始化ARouter
-        ARouter.init(this);
+
     }
 
     /**
