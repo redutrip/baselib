@@ -106,9 +106,9 @@ public class BaseApplication extends MultiDexApplication {
         // 各平台的 ID
         String weixinId = appInfo.metaData.getString("WEIXIN_ID");
         String weixinSecret = appInfo.metaData.getString("WEIXIN_SECRET");
-        String qqId = appInfo.metaData.getString("QQ_ID");
+        String qqId = String.valueOf(appInfo.metaData.getInt("QQ_ID"));
         String qqKey = appInfo.metaData.getString("QQ_KEY");
-        String sinaKey = appInfo.metaData.getString("SINA_KEY");
+        String sinaKey = String.valueOf(appInfo.metaData.getInt("SINA_KEY"));
         String sinaSecret = appInfo.metaData.getString("SINA_SECRET");
         PlatformConfig.setWeixin(weixinId, weixinSecret);
         PlatformConfig.setQQZone(qqId, qqKey);
