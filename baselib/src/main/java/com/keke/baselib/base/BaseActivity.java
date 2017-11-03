@@ -55,6 +55,7 @@ public abstract class BaseActivity extends RxAppCompatActivity implements BaseVi
         return activity;
     }
 
+    private boolean needFinish = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -114,6 +115,8 @@ public abstract class BaseActivity extends RxAppCompatActivity implements BaseVi
     @Override
     protected void onStop() {
         super.onStop();
+        if(needFinish)
+            finish();
     }
 
     @Override
