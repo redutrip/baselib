@@ -18,6 +18,7 @@ android {
             minifyEnabled false
         }
     }
+    buildToolsVersion '26.0.2'
 }
 
 
