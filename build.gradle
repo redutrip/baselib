@@ -4,6 +4,7 @@ apply from: "config.gradle"
 buildscript {
     repositories {
         jcenter()
+        google()
     }
 
     dependencies {
@@ -18,6 +19,7 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        google()
         maven { url 'http://repo.baichuan-android.taobao.com/content/groups/BaichuanRepositories/' }
         maven { url "https://jitpack.io" }
     }
